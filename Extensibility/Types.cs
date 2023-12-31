@@ -10,10 +10,10 @@ namespace ExtensibilityPackage.ExtPackage.Extensibility
     public class Type2<T>
     {
         public readonly T one, two;
-        public Type2(T one, T two)
+        public Type2(T _one, T _two)
         {
-            this.one = one;
-            this.two = two;
+            this.one = _one;
+            this.two = _two;
         }
         public TypeToGet[] GetValues<TypeToGet>(int OptMethod = (int)GetValueMethod.Normal)
         {
